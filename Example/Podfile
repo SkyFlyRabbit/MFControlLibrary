@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MFControlLibrary_Example' do
+  pod 'MFControlLibrary', :path => '../'
+
+  target 'MFControlLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
