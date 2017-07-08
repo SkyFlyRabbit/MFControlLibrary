@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MFControlLibrary/Classes/**/*'
+  s.source_files = 'MFControlLibrary/**/*'
   
   # s.resource_bundles = {
   #   'MFControlLibrary' => ['MFControlLibrary/Assets/*.png']

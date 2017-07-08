@@ -10,11 +10,13 @@
 
 #import "MFMutableAttributedStringViewController.h"
 
-@interface MFViewController ()
+@interface MFViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, copy) NSArray<NSString *> *titleArray;
 @property (nonatomic, copy) NSArray<Class> *classArray;
+
+@property (nonatomic, copy) NSArray<NSDictionary<NSString *, Class> *> *demoInfoArray;
 
 @end
 
@@ -24,10 +26,10 @@
 {
     [super viewDidLoad];
     
-    self.titleArray = @[@"富文本展示"];
-    self.classArray = @[
-                        [MFMutableAttributedStringViewController class]
-                        ];
+    self.demoInfoArray = @[
+                           @{@"富文本展示": [MFMutableAttributedStringViewController class]}
+                          ];
+    
     [self.view addSubview:self.tableView];
 }
 
@@ -54,7 +56,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.titleArray.count;
+    return self.demoInfoArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -64,8 +66,8 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-    if (indexPath.row < self.titleArray.count) {
-        cell.textLabel.text = self.titleArray[indexPath.row];
+    if (indexPath.row < self.demoInfoArray.count) {
+        cell.textLabel.text = [[self.demoInfoArray[indexPath.row] allKeys] firstObject];
     }
     return cell;
 }
@@ -75,8 +77,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (indexPath.row < self.classArray.count) {
-        Class class = self.classArray[indexPath.row];
+    if (indexPath.row < self.demoInfoArray.count) {
+        Class class = [[self.demoInfoArray[indexPath.row] allValues] firstObject];
         [self.navigationController pushViewController:[[class alloc] init] animated:YES];
     }
 }

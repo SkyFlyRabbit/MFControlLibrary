@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MFControlLibrary/Classes/**/*"
+  "source_files": "MFControlLibrary/**/*"
 }
