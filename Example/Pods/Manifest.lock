@@ -1,0 +1,16 @@
+PODS:
+  - MFControlLibrary (0.1.0)
+
+DEPENDENCIES:
+  - MFControlLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  MFControlLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MFControlLibrary: 5dd5e23fe0c1c6dbf29052cffa71c3e229804065
+
+PODFILE CHECKSUM: 4675a43a0ac60727052b211b45f8efff1a5e9039
+
+COCOAPODS: 1.2.1

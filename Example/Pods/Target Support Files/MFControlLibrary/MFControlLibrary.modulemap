@@ -1,0 +1,6 @@
+framework module MFControlLibrary {
+  umbrella header "MFControlLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

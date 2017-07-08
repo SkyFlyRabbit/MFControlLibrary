@@ -1,0 +1,22 @@
+{
+  "name": "MFControlLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of MFControlLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/953950782@qq.com/MFControlLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "953950782@qq.com": "xmf@xkeshi.com"
+  },
+  "source": {
+    "git": "https://github.com/953950782@qq.com/MFControlLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MFControlLibrary/Classes/**/*"
+}

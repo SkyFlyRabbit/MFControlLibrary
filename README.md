@@ -22,8 +22,10 @@ pod "MFControlLibrary"
 
 ## Author
 
-953950782@qq.com, xmf@xkeshi.com
+953950782@qq.com
 
 ## License
 
 MFControlLibrary is available under the MIT license. See the LICENSE file for more info.
+
+
