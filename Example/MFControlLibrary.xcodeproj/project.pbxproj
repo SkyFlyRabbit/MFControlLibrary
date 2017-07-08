@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1628AD7595EBC20F57516CEC /* Pods_MFControlLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0486D3D6BD994384236D47EE /* Pods_MFControlLibrary_Tests.framework */; };
+		374945C71F1089EC006F5A52 /* MFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374945C61F1089EC006F5A52 /* MFBaseViewController.m */; };
+		374945CA1F108A0E006F5A52 /* MFBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374945C91F108A0E006F5A52 /* MFBaseNavigationViewController.m */; };
+		374945CD1F108A91006F5A52 /* MFMutableAttributedStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374945CC1F108A91006F5A52 /* MFMutableAttributedStringViewController.m */; };
 		590362AC20B817096986CBB0 /* Pods_MFControlLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E93350AAE811273C61269D /* Pods_MFControlLibrary_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,9 +41,15 @@
 
 /* Begin PBXFileReference section */
 		0486D3D6BD994384236D47EE /* Pods_MFControlLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFControlLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A05F13FA56940D3F007DDFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		29E0034035D6BF49768B7803 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A05F13FA56940D3F007DDFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		29E0034035D6BF49768B7803 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		34E93350AAE811273C61269D /* Pods_MFControlLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFControlLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374945C51F1089EC006F5A52 /* MFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBaseViewController.h; sourceTree = "<group>"; };
+		374945C61F1089EC006F5A52 /* MFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBaseViewController.m; sourceTree = "<group>"; };
+		374945C81F108A0E006F5A52 /* MFBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBaseNavigationViewController.h; sourceTree = "<group>"; };
+		374945C91F108A0E006F5A52 /* MFBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBaseNavigationViewController.m; sourceTree = "<group>"; };
+		374945CB1F108A91006F5A52 /* MFMutableAttributedStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMutableAttributedStringViewController.h; sourceTree = "<group>"; };
+		374945CC1F108A91006F5A52 /* MFMutableAttributedStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMutableAttributedStringViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MFControlLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFControlLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +75,7 @@
 		AE8D26FB70E0FBB9374403ED /* Pods-MFControlLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFControlLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFControlLibrary_Example/Pods-MFControlLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B1690C9FDBA7DF8AEC6F7A3B /* Pods-MFControlLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFControlLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFControlLibrary_Tests/Pods-MFControlLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C390D9561050A454CDD32A72 /* Pods-MFControlLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFControlLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFControlLibrary_Tests/Pods-MFControlLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E42C25EE166BF4D602E699CB /* MFControlLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MFControlLibrary.podspec; path = ../MFControlLibrary.podspec; sourceTree = "<group>"; };
+		E42C25EE166BF4D602E699CB /* MFControlLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MFControlLibrary.podspec; path = ../MFControlLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,19 @@
 				C390D9561050A454CDD32A72 /* Pods-MFControlLibrary_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		374945C41F1089D7006F5A52 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				374945C51F1089EC006F5A52 /* MFBaseViewController.h */,
+				374945C61F1089EC006F5A52 /* MFBaseViewController.m */,
+				374945C81F108A0E006F5A52 /* MFBaseNavigationViewController.h */,
+				374945C91F108A0E006F5A52 /* MFBaseNavigationViewController.m */,
+				374945CB1F108A91006F5A52 /* MFMutableAttributedStringViewController.h */,
+				374945CC1F108A91006F5A52 /* MFMutableAttributedStringViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -148,6 +170,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MFViewController.h */,
 				6003F5A6195388D20070C39A /* MFViewController.m */,
+				374945C41F1089D7006F5A52 /* ViewController */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -395,7 +418,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MFAppDelegate.m in Sources */,
+				374945CA1F108A0E006F5A52 /* MFBaseNavigationViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* MFViewController.m in Sources */,
+				374945CD1F108A91006F5A52 /* MFMutableAttributedStringViewController.m in Sources */,
+				374945C71F1089EC006F5A52 /* MFBaseViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,7 +1,9 @@
 PODS:
+  - Masonry (1.0.2)
   - MFControlLibrary (0.1.0)
 
 DEPENDENCIES:
+  - Masonry
   - MFControlLibrary (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MFControlLibrary: 5dd5e23fe0c1c6dbf29052cffa71c3e229804065
 
-PODFILE CHECKSUM: 4675a43a0ac60727052b211b45f8efff1a5e9039
+PODFILE CHECKSUM: 666205d379d624f147424f9ca7698c18c2aa2049
 
 COCOAPODS: 1.2.1
