@@ -28,4 +28,11 @@ pod "MFControlLibrary"
 
 MFControlLibrary is available under the MIT license. See the LICENSE file for more info.
 
+## 开发说明
+
+因为是多人协作,各位大神添加自己的控件时请在develop分支上开发,等稳定后在统一合并到master分支上,避免问题.各位添加控件的时候需要注意几点:
+(1)各个控件要有使用demo,有单独的vc来展示控件,查看使用效果,方便使用者使用.
+(2)控件的命名,方法尽量规范,如有必要添加适当说明.
+
+
 
