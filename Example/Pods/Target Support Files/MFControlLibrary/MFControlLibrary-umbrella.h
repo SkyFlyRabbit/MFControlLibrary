@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "PHDView.h"
+#import "MFAlterView.h"
+#import "MFCommonToolHeader.h"
 
 FOUNDATION_EXPORT double MFControlLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char MFControlLibraryVersionString[];

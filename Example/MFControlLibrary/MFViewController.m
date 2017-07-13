@@ -9,6 +9,7 @@
 #import "MFViewController.h"
 
 #import "MFMutableAttributedStringViewController.h"
+#import "MFAlertViewController.h"
 
 @interface MFViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -27,7 +28,8 @@
     [super viewDidLoad];
     
     self.demoInfoArray = @[
-                           @{@"富文本展示": [MFMutableAttributedStringViewController class]}
+                           @{@"富文本展示": [MFMutableAttributedStringViewController class]},
+                           @{@"提示框": [MFAlertViewController class]}
                           ];
     
     [self.view addSubview:self.tableView];

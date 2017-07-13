@@ -11,7 +11,8 @@
 		374945C71F1089EC006F5A52 /* MFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374945C61F1089EC006F5A52 /* MFBaseViewController.m */; };
 		374945CA1F108A0E006F5A52 /* MFBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374945C91F108A0E006F5A52 /* MFBaseNavigationViewController.m */; };
 		374945CD1F108A91006F5A52 /* MFMutableAttributedStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374945CC1F108A91006F5A52 /* MFMutableAttributedStringViewController.m */; };
-		590362AC20B817096986CBB0 /* Pods_MFControlLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E93350AAE811273C61269D /* Pods_MFControlLibrary_Example.framework */; };
+		3770CA2B1F13B70800E9D726 /* MFAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770CA2A1F13B70800E9D726 /* MFAlertViewController.m */; };
+		37C5239B1F171934009828C6 /* MFControlLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C5239A1F171934009828C6 /* MFControlLibrary.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -50,6 +51,10 @@
 		374945C91F108A0E006F5A52 /* MFBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBaseNavigationViewController.m; sourceTree = "<group>"; };
 		374945CB1F108A91006F5A52 /* MFMutableAttributedStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMutableAttributedStringViewController.h; sourceTree = "<group>"; };
 		374945CC1F108A91006F5A52 /* MFMutableAttributedStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMutableAttributedStringViewController.m; sourceTree = "<group>"; };
+		3770CA291F13B70800E9D726 /* MFAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAlertViewController.h; sourceTree = "<group>"; };
+		3770CA2A1F13B70800E9D726 /* MFAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAlertViewController.m; sourceTree = "<group>"; };
+		37C523981F171920009828C6 /* Pods_MFControlLibrary_Tests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_MFControlLibrary_Tests.framework; path = "Pods/../build/Debug-iphoneos/Pods_MFControlLibrary_Tests.framework"; sourceTree = "<group>"; };
+		37C5239A1F171934009828C6 /* MFControlLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MFControlLibrary.framework; path = "Pods/../build/Debug-iphoneos/MFControlLibrary/MFControlLibrary.framework"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MFControlLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFControlLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,10 +88,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C5239B1F171934009828C6 /* MFControlLibrary.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				590362AC20B817096986CBB0 /* Pods_MFControlLibrary_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +129,8 @@
 				374945C91F108A0E006F5A52 /* MFBaseNavigationViewController.m */,
 				374945CB1F108A91006F5A52 /* MFMutableAttributedStringViewController.h */,
 				374945CC1F108A91006F5A52 /* MFMutableAttributedStringViewController.m */,
+				3770CA291F13B70800E9D726 /* MFAlertViewController.h */,
+				3770CA2A1F13B70800E9D726 /* MFAlertViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -152,6 +159,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37C5239A1F171934009828C6 /* MFControlLibrary.framework */,
+				37C523981F171920009828C6 /* Pods_MFControlLibrary_Tests.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -420,6 +429,7 @@
 				6003F59E195388D20070C39A /* MFAppDelegate.m in Sources */,
 				374945CA1F108A0E006F5A52 /* MFBaseNavigationViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* MFViewController.m in Sources */,
+				3770CA2B1F13B70800E9D726 /* MFAlertViewController.m in Sources */,
 				374945CD1F108A91006F5A52 /* MFMutableAttributedStringViewController.m in Sources */,
 				374945C71F1089EC006F5A52 /* MFBaseViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -550,6 +560,11 @@
 			baseConfigurationReference = AE8D26FB70E0FBB9374403ED /* Pods-MFControlLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MFControlLibrary",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MFControlLibrary/MFControlLibrary-Prefix.pch";
 				INFOPLIST_FILE = "MFControlLibrary/MFControlLibrary-Info.plist";
@@ -565,6 +580,11 @@
 			baseConfigurationReference = AB1027830E14F7B650296039 /* Pods-MFControlLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MFControlLibrary",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MFControlLibrary/MFControlLibrary-Prefix.pch";
 				INFOPLIST_FILE = "MFControlLibrary/MFControlLibrary-Info.plist";

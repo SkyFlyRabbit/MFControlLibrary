@@ -30,13 +30,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MFControlLibrary/**/*'
+  s.frameworks = 'UIKit', 'Foundation'
+
+  s.source_files = 'MFControlLibrary/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'MFControlLibrary' => ['MFControlLibrary/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'MFControlLibrary/**/*.h'
+
+  #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   

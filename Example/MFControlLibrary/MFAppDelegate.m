@@ -8,11 +8,22 @@
 
 #import "MFAppDelegate.h"
 
+//#import <MFControlLibrary/MFAlterView.h>
+
+#import <MFControlLibrary/MFCommonToolHeader.h>
+
+//#import <MFControlLibrary/MFCommonToolHeader.h>
+
+//#import <MFControlLibrary/>
+
+//could not build module
 @implementation MFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    MFAlterView *a = nil;
     return YES;
 }
 
