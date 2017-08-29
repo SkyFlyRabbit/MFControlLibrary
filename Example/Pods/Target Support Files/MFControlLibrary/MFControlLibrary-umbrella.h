@@ -12,12 +12,14 @@
 
 #import "MFCategoryHeader.h"
 #import "NSDate+Conversion.h"
+#import "NSMutableAttributedString+ContentStyle.h"
 #import "NSObject+Handle.h"
 #import "NSObject+SystemSettingJump.h"
 #import "PHDView.h"
 #import "MFAlterView.h"
 #import "MFButton.h"
 #import "MFCommonToolHeader.h"
+#import "MFTextField.h"
 
 FOUNDATION_EXPORT double MFControlLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char MFControlLibraryVersionString[];

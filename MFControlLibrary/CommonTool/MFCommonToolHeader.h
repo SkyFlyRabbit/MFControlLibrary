@@ -9,9 +9,9 @@
 #ifndef MFCommonToolHeader_h
 #define MFCommonToolHeader_h
 
+#import <MFControlLibrary/MFAlterView.h>//警告框
 
-//警告框
-#import <MFControlLibrary/MFAlterView.h>
+#import <MFControlLibrary/MFTextField.h>//输入框
 
 
 #endif /* MFCommonToolHeader_h */

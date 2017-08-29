@@ -22,7 +22,7 @@ pod "MFControlLibrary"
 
 ## Author
 
-953950782@qq.com
+weekendlittleant@126.com
 
 ## License
 
