@@ -1,15 +1,15 @@
 {
   "name": "MFControlLibrary",
   "version": "0.1.0",
-  "summary": "A short description of MFControlLibrary.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "该控件库为日常所常用工具类集合,使用便捷",
+  "description": "库文件主要有一下几类功能:\n1.宏定义类:提供常用的宏定义(如数字比较,判断等)\n2.常用类类目:提供常用的分类方法(如日期转,富文本等)\n3.常用工具类:提供各种常用的小工具(如弹窗等)",
   "homepage": "https://github.com/953950782@qq.com/MFControlLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "953950782@qq.com": "xmf@xkeshi.com"
+    "mf": "weekendlittleant@126.com"
   },
   "source": {
     "git": "https://github.com/953950782@qq.com/MFControlLibrary.git",
