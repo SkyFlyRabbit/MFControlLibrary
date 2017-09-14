@@ -13,5 +13,6 @@
 
 #import <MFControlLibrary/MFTextField.h>//输入框
 
+#import <MFControlLibrary/UITableViewCell+SeparatorLine.h>//cell分割线
 
 #endif /* MFCommonToolHeader_h */
