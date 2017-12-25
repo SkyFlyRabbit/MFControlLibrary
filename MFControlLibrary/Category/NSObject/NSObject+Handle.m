@@ -12,7 +12,7 @@
 
 - (BOOL)isEmpty
 {
-    
+    return NO;
     
 }
 
